@@ -3,13 +3,6 @@ import pandas as pd
 from config import SYMBOL
 
 
-
-
-
-
-
-
-
 def connect_mt5():
     if not mt5.initialize():
         print("MT5 ulanmayapti")
