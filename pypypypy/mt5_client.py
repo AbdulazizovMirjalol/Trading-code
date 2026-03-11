@@ -24,6 +24,7 @@ def get_gold_data(timeframe=mt5.TIMEFRAME_M15, bars=50):
         print("XAUUSD data olinmadi")
         return None
 
+
     df = pd.DataFrame(rates)
     df["time"] = pd.to_datetime(df["time"], unit="s")
 
